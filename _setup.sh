@@ -7,5 +7,4 @@ fi
 
 
 cat *.txt > goodnews
-rm -f *.txt
 ln -s ./goodnews ~/.goodnews
