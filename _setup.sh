@@ -10,5 +10,5 @@ if [ -e ~/.goodnews ]; then
 fi
 
 # create and link new file
-cat *.txt > goodnews
+cat ~/.good-news/*.txt > ~/.good-news/goodnews
 ln -s ~/.good-news/goodnews ~/.goodnews
